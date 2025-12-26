@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header要素: ページの先頭やセクションの導入部分を表します -->
+    <!-- 通常、見出し、ロゴ、ナビゲーション、検索フォームなどを含みます -->
+    <header>
+      <h1>Hello, world!</h1>
+      <!-- nav要素: ナビゲーションリンクのセクションを表します -->
+      <!-- 主要なナビゲーション（メニュー、目次、ページ内リンクなど）に使用します -->
+      <!-- リスト（ul/ol）と組み合わせて使うことが一般的です -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- nav要素の別の使用例: ページ内の目次（Table of Contents） -->
+    <nav aria-label="Table of Contents">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#html-css">HTMLとCSS</a></li>
+        <li><a href="#cite">cite要素</a></li>
+        <li><a href="#dfn">dfn要素</a></li>
+        <li><a href="#address">address要素</a></li>
+        <li><a href="#blockquote">blockquote要素</a></li>
+        <li><a href="#q">q要素</a></li>
+      </ol>
+    </nav>
+
+    <!-- main要素: ページの主要なコンテンツを表します -->
+    <!-- ページ内に1つだけ存在し、header、nav、footer、asideなどの補助的な要素を除いた -->
+    <!-- ページの主要なコンテンツを囲むために使用されます -->
+    <main>
+      <p id="html-css">I am learning <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p id="cite">
+      I am learning cite element to mark up a reference to a creative work.<br>
+      <cite>The Great Gatsby</cite> by F. Scott Fitzgerald.
+    </p>
+    <p id="dfn">
+      I am learning dfn element to mark up a definition term.<br>
+      <dfn>HTML</dfn> is the standard markup language for creating web pages.
+    </p>
+    <p id="address">
+      I am learning address element to mark up a contact information. <br>
+      <address>
+        <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+        <a href="tel:+1234567890">+1234567890</a>
+        <a href="https://www.example.com">www.example.com</a>
+      </address>
+    </p>
+    <p id="blockquote">
+      I am learning blockquote element to mark up a long quotation. <br>
+      <blockquote cite="https://www.example.com">
+        <p>The only way to do great work is to love what you do.</p>
+        <footer>
+          <p>- Steve Jobs</p>
+        </footer>
+      </blockquote>
+    </p>
+    <p id="q">
+      I am learning q element to mark up a short quotation. <br>
+      <q cite="https://www.example.com">The only way to do great work is to love what you do.</q>
+    </p>
+    </main>
+  </body>
+</html>
