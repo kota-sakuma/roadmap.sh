@@ -1,10 +1,10 @@
-import fs from "fs";
+import fs from 'node:fs';
 
-fs.readFile("package.json", (err, data) => {
+fs.readFile('package.json', (err, data) => {
   setTimeout(() => {
-    console.log("timeout");
+    console.log('timeout');
   }, 0);
   setImmediate(() => {
-    console.log("immediate");
+    console.log('immediate');
   });
 });
