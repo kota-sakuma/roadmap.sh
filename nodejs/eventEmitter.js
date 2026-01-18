@@ -4,12 +4,12 @@ const myEmitter = new EventEmitter();
 
 // 1. リスナーの登録 (何度でも反応する)
 myEmitter.on('welcome', (name) => {
-    console.log(`こんにちは、${name}さん！`);
+  console.log(`こんにちは、${name}さん！`);
 });
 
 // 2. リスナーの登録 (1回だけ反応する)
 myEmitter.once('login', () => {
-    console.log('初めてのログインを確認しました。');
+  console.log('初めてのログインを確認しました。');
 });
 
 // 3. イベントの発行
