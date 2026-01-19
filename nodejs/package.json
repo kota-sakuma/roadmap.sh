@@ -6,7 +6,8 @@
     "assert": "^2.1.0",
     "chokidar": "^5.0.0",
     "fs-extra": "^11.3.3",
-    "globby": "^16.1.0"
+    "globby": "^16.1.0",
+    "inquirer": "^13.2.0"
   },
   "scripts": {
     "format": "pnpm dlx prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\""
