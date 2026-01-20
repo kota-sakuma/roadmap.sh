@@ -2,7 +2,10 @@ import chalk from 'chalk';
 import cliProgress from 'cli-progress';
 
 const bar = new cliProgress.SingleBar({
-  format: 'Progress |' + chalk.cyan('{bar}') + '| {percentage}% || {value}/{total} Chunks || ETA: {eta}s',
+  format:
+    'Progress |' +
+    chalk.cyan('{bar}') +
+    '| {percentage}% || {value}/{total} Chunks || ETA: {eta}s',
   barCompleteChar: '\u2588',
   barIncompleteChar: '\u2591',
   hideCursor: true,

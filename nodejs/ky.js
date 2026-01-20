@@ -4,7 +4,9 @@ import ky from 'ky';
 
 async function fetchRepoInfo(repoPath) {
   try {
-    const data = await ky.get(`https://api.github.com/repos/${repoPath}`).json();
+    const data = await ky
+      .get(`https://api.github.com/repos/${repoPath}`)
+      .json();
     console.log(chalk.magenta(figlet.textSync('Repo Info')));
     console.log(`Stars: ${chalk.yellow(data.stargazers_count)}`);
   } catch (error) {
