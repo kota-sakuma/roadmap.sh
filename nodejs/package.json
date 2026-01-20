@@ -9,12 +9,17 @@
     "chokidar": "^5.0.0",
     "cli-progress": "^3.12.0",
     "commander": "^14.0.2",
+    "express": "^5.2.1",
     "figlet": "^1.9.4",
     "fs-extra": "^11.3.3",
     "globby": "^16.1.0",
     "got": "^14.6.6",
     "inquirer": "^13.2.0",
+    "jsonwebtoken": "^9.0.3",
     "ky": "^1.14.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
     "prompts": "^2.4.2"
   },
   "scripts": {
