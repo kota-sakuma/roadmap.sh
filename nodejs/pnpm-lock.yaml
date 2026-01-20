@@ -41,6 +41,9 @@ importers:
       inquirer:
         specifier: ^13.2.0
         version: 13.2.0
+      ky:
+        specifier: ^1.14.2
+        version: 1.14.2
       prompts:
         specifier: ^2.4.2
         version: 2.4.2
@@ -462,6 +465,10 @@ packages:
   kleur@3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
+
+  ky@1.14.2:
+    resolution: {integrity: sha512-q3RBbsO5A5zrPhB6CaCS8ZUv+NWCXv6JJT4Em0i264G9W0fdPB8YRfnnEi7Dm7X7omAkBIPojzYJ2D1oHTHqug==}
+    engines: {node: '>=18'}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -979,6 +986,8 @@ snapshots:
       graceful-fs: 4.2.11
 
   kleur@3.0.3: {}
+
+  ky@1.14.2: {}
 
   math-intrinsics@1.1.0: {}
 

@@ -13,6 +13,7 @@
     "fs-extra": "^11.3.3",
     "globby": "^16.1.0",
     "inquirer": "^13.2.0",
+    "ky": "^1.14.2",
     "prompts": "^2.4.2"
   },
   "scripts": {
